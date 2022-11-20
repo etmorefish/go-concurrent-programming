@@ -22,6 +22,8 @@
   
   - [map：如何实现线程安全的map类型 08](https://www.bilibili.com/video/BV1Xg411i75P/)  
   
+  - [pool: 性能提升操作](https://www.bilibili.com/video/BV1324y117PL/)
+  
   - [Context：Goroutine上下文 10](https://www.bilibili.com/video/BV1Vt4y1N7MD/)  
 </details>
 
