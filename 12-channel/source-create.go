@@ -7,9 +7,8 @@ ch1 := make(chan int)
 ch2 := make(chan int, 10)
 
 
-func makechan(t *chantype, size int64) *hchan
-
-// 从函数原型来看，创建的 chan 是一个指针。所以我们能在函数间直接传递 channel，而不用传递 channel 的指针。
+// 从函数原型来看，创建的 chan 是一个指针。
+// 所以我们能在函数间直接传递 channel，而不用传递 channel 的指针。
 
 const hchanSize = unsafe.Sizeof(hchan{}) + uintptr(-int(unsafe.Sizeof(hchan{}))&(maxAlign-1))
 
